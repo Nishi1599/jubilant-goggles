@@ -1,0 +1,16 @@
+int pow(int n){
+
+if(n==0){
+
+return 1;
+}
+
+else{
+
+int tworaisedto = 2* pow(n-1);
+
+return tworaisedto ;
+}
+
+}
+
