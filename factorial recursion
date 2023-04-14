@@ -1,0 +1,14 @@
+// factorial - recursion
+
+long long int factorial(int N){
+       //code here
+       
+       if(N==1||N==0){
+           return 1;
+       }
+       
+       int recall = N*factorial(N-1) ;
+       
+       
+       return recall;
+}
