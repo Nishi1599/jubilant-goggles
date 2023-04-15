@@ -1,0 +1,28 @@
+// fibonaci 
+
+class Solution {
+  public:
+    long long int nthFibonacci(long long int n){
+        if (n == 0 ){
+            
+            return 0;
+        }
+        
+        else if (n== 1){
+            
+              return 1 ;
+              
+        }
+        
+        else{
+            
+            long soulution = nthFibonacci(n-1) + nthFibonacci(n-2) ;
+            
+            return soulution ;
+            
+            
+        }
+            
+            
+    }
+};
